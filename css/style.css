@@ -1,13 +1,36 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
-}
+  background-color: #f4f4f4;
+  color: #302e2e;
 
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 100%;
+
+  line-height: 1.6em
+}
+h1 {
+  font-size: 300%;
+  font-weight: 800;
+  line-height: 1.6em;
+  text-transform: capitalize;
+}
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
+}
+
+p {
+  text-align: left;
+  text-align: justify;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover{
+  color: #0070BC;
 }
 
 .logo {
@@ -32,6 +55,12 @@ nav {
   float: right;
 }
 
+.author {
+  font-style: italic;
+  font-weight: 800;
+  line-height: 3em;
+}
+
 ul {
   list-style-type: none;
   float: right;
@@ -48,5 +77,6 @@ article {
 
 .container {
   margin: 0 auto;
+  text-align: justify;
   width: 50%;
 }
